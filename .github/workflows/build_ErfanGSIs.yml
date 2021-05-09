@@ -42,7 +42,7 @@ jobs:
          run: |
               cd ErfanGSIs
               mkdir ./output
-              cp main.sh setup-xiaoxin.sh
+              cp ../main.sh setup-xiaoxin.sh
               sudo bash setup-xiaoxin.sh
        
        - name: Download Stock Rom & Generate GSI
